@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Customer Churn Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Customers</h3>
+                <p id="totalCustomers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Churned Customers</h3>
+                <p id="churnedCustomers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Active Customers</h3>
+                <p id="activeCustomers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Churn Rate</h3>
+                <p id="churnRate">0%</p>
+            </div>
+
+        </div>
+
+        <div class="chart-box">
+            <canvas id="churnChart"></canvas>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
